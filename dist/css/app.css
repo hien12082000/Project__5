@@ -1,0 +1,1104 @@
+#main .main__title {
+  background-image: url(../images/bg.png);
+  height: 560px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  #main .main__title > .main__title__content {
+    width: 730px;
+    height: 286px; }
+    #main .main__title > .main__title__content .main__title__content__top h1 {
+      font-size: 44px;
+      line-height: 56px;
+      text-align: center;
+      letter-spacing: 0.2px;
+      color: #373f41; }
+    #main .main__title > .main__title__content .main__title__content__center p {
+      font-size: 16px;
+      line-height: 22px;
+      text-align: center;
+      letter-spacing: 0.3px;
+      color: #737b7d;
+      margin: 32px 0px; }
+    #main .main__title > .main__title__content .main__title__content__bottom {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      #main .main__title > .main__title__content .main__title__content__bottom > div {
+        display: flex;
+        width: 40%;
+        justify-content: space-between;
+        margin-top: 57px; }
+        #main .main__title > .main__title__content .main__title__content__bottom > div .bt1 {
+          width: 136px;
+          height: 42px;
+          color: #fff;
+          background: #3c64b1;
+          border: 0px;
+          cursor: pointer;
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          font-weight: bold;
+          font-size: 14px;
+          line-height: 18px;
+          letter-spacing: 0.3px; }
+          #main .main__title > .main__title__content .main__title__content__bottom > div .bt1:hover {
+            background-color: #fff;
+            color: #3c64b1;
+            border: 1px solid #3c64b1; }
+        #main .main__title > .main__title__content .main__title__content__bottom > div .bt2 {
+          width: 115px;
+          height: 42px;
+          font-weight: bold;
+          font-size: 14px;
+          line-height: 18px;
+          letter-spacing: 0.3px;
+          color: #3c64b1;
+          cursor: pointer;
+          border: 1px solid #3c64b1;
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+          #main .main__title > .main__title__content .main__title__content__bottom > div .bt2:hover {
+            background-color: #3c64b1;
+            color: #fff; }
+
+#main .main__notification {
+  background-color: #ffffff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 24px 0px; }
+  #main .main__notification h2 {
+    text-align: center;
+    font-size: 32px;
+    letter-spacing: 0.1px;
+    line-height: 30px;
+    color: #373f41;
+    margin: 24px 0px; }
+  #main .main__notification p {
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    font-size: 16px;
+    color: #737b7d; }
+
+#main .main__logo {
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  margin: 22px 0px; }
+  #main .main__logo > div {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin-top: 1rem; }
+    #main .main__logo > div .main__logo__column {
+      position: static;
+      width: 350px;
+      height: 204px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px; }
+      #main .main__logo > div .main__logo__column .icon__text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        width: 350px;
+        height: 140px;
+        padding: 0px; }
+        #main .main__logo > div .main__logo__column .icon__text .icon {
+          width: 40px;
+          height: 40px;
+          margin-bottom: 22px; }
+        #main .main__logo > div .main__logo__column .icon__text .text {
+          width: 350px;
+          height: 76px;
+          display: flex;
+          flex-direction: column;
+          align-items: center; }
+          #main .main__logo > div .main__logo__column .icon__text .text h4 {
+            font-size: 18px;
+            line-height: 24px;
+            letter-spacing: 0.2px;
+            margin-bottom: 12px; }
+          #main .main__logo > div .main__logo__column .icon__text .text p {
+            text-align: center;
+            font-size: 14px;
+            line-height: 18px;
+            letter-spacing: 0.1px;
+            margin-bottom: 12px;
+            color: #373f41; }
+      #main .main__logo > div .main__logo__column .Discover {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: static;
+        height: 42px;
+        margin: 22px 0px;
+        justify-content: center;
+        align-items: center; }
+        #main .main__logo > div .main__logo__column .Discover a {
+          color: #3c64b1;
+          text-decoration: none;
+          margin: 0px 10px;
+          font-weight: bold;
+          font-size: 14px;
+          line-height: 18px;
+          letter-spacing: 0.3px;
+          border: 1px solid transparent; }
+          #main .main__logo > div .main__logo__column .Discover a:hover {
+            border-bottom: 1px solid #3c64b1; }
+
+#main .main__image__text {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  #main .main__image__text > div {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    #main .main__image__text > div .textfield {
+      width: 540px;
+      height: 364px;
+      margin-left: 25px; }
+      #main .main__image__text > div .textfield .textfield__top h2 {
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: 0.1px;
+        color: #373f41; }
+      #main .main__image__text > div .textfield .textfield__top p {
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0.3px;
+        margin-top: 30px;
+        color: #737b7d; }
+      #main .main__image__text > div .textfield .textfield__center {
+        margin-top: 56px;
+        display: flex;
+        justify-content: space-between; }
+        #main .main__image__text > div .textfield .textfield__center input {
+          background: #f4f5f4;
+          width: 377px;
+          height: 42px;
+          padding-left: 0.5rem;
+          font-size: 14px;
+          line-height: 20px;
+          letter-spacing: 0.2px;
+          border: 0px; }
+        #main .main__image__text > div .textfield .textfield__center button {
+          width: 139px;
+          height: 42px;
+          color: #fff;
+          background-color: #3c64b1;
+          border: 0px;
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          cursor: pointer;
+          font-weight: bold;
+          font-size: 14px;
+          line-height: 18px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          letter-spacing: 0.3px; }
+          #main .main__image__text > div .textfield .textfield__center button:hover {
+            background-color: #fff;
+            color: #3c64b1;
+            border: 1px solid #3c64b1; }
+      #main .main__image__text > div .textfield .textfield__bottom {
+        width: 540px;
+        height: 32px;
+        margin-top: 20px; }
+        #main .main__image__text > div .textfield .textfield__bottom h6 {
+          font-size: 12px;
+          line-height: 16px;
+          letter-spacing: 0.2px;
+          color: #737b7d; }
+
+#main .main__icon__image {
+  display: flex;
+  justify-content: center;
+  margin: 5rem 0rem; }
+  #main .main__icon__image > div {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    #main .main__icon__image > div .icon__1 {
+      width: 540px;
+      height: 290px;
+      margin-right: 1rem; }
+      #main .main__icon__image > div .icon__1 .icon__title {
+        width: 540px;
+        height: 120px; }
+        #main .main__icon__image > div .icon__1 .icon__title h2 {
+          width: 80%;
+          font-weight: bold;
+          font-size: 32px;
+          line-height: 40px;
+          letter-spacing: 0.1px;
+          text-align: left;
+          color: #373f41; }
+      #main .main__icon__image > div .icon__1 .icon__information {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 70px; }
+        #main .main__icon__image > div .icon__1 .icon__information .icon__information__left {
+          width: 255px;
+          height: 114px; }
+          #main .main__icon__image > div .icon__1 .icon__information .icon__information__left p {
+            font-size: 16px;
+            line-height: 22px;
+            letter-spacing: 0.3px;
+            text-align: left;
+            color: #737b7d; }
+        #main .main__icon__image > div .icon__1 .icon__information .icon__information__right {
+          width: 255px;
+          height: 114px; }
+          #main .main__icon__image > div .icon__1 .icon__information .icon__information__right p {
+            font-size: 16px;
+            line-height: 22px;
+            letter-spacing: 0.3px;
+            text-align: left;
+            color: #737b7d; }
+    #main .main__icon__image > div .image__1 img {
+      width: 540px;
+      height: 440px; }
+
+#main .main__image {
+  margin: 32px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 368px; }
+  #main .main__image > div {
+    width: 75%;
+    display: flex; }
+    #main .main__image > div > div {
+      height: 368px;
+      width: 255px;
+      margin: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px; }
+      #main .main__image > div > div img {
+        width: 255px;
+        height: 260px; }
+      #main .main__image > div > div h5 {
+        height: 24px;
+        bottom: 52px;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.1px;
+        margin: 12px 0px;
+        color: #373f41; }
+      #main .main__image > div > div p {
+        height: 40px;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #373f41;
+        margin: 12px 0px; }
+
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+  #main .main__title {
+    height: 50vh;
+    padding: 1rem; }
+    #main .main__title .main__title__content .main__title__content__top h1 {
+      font-size: 26px; }
+    #main .main__title .main__title__content .main__title__content__center p {
+      font-size: 13px;
+      margin: 20px 0px; }
+    #main .main__title .main__title__content .main__title__content__bottom {
+      height: 10vh; }
+      #main .main__title .main__title__content .main__title__content__bottom div {
+        width: 65%;
+        margin-top: 0px; }
+        #main .main__title .main__title__content .main__title__content__bottom div .bt1 {
+          width: 50%; }
+        #main .main__title .main__title__content .main__title__content__bottom div .bt2 {
+          width: 45%; }
+  #main .main__notification {
+    padding: 1rem; }
+    #main .main__notification h2 {
+      font-size: 25px; }
+    #main .main__notification p {
+      font-size: 12px; }
+  #main .main__logo {
+    padding: 1rem;
+    height: 100%;
+    width: 100%; }
+    #main .main__logo div {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%; }
+      #main .main__logo div .main__logo__column {
+        width: 100%;
+        margin: 10px;
+        background-color: #eeeeee4a; }
+        #main .main__logo div .main__logo__column .icon__text .text h4 {
+          font-size: 15px;
+          line-height: 5px;
+          height: 100%; }
+        #main .main__logo div .main__logo__column .icon__text .text p {
+          font-size: 12px; }
+  #main .main__image__text {
+    padding: 1rem;
+    margin: 0px;
+    width: 100%;
+    height: 100%; }
+    #main .main__image__text div {
+      width: 100%;
+      display: block; }
+      #main .main__image__text div .image img {
+        max-width: 100%; }
+      #main .main__image__text div .textfield {
+        width: 100%;
+        margin: 0px; }
+        #main .main__image__text div .textfield .textfield__top {
+          width: 100%; }
+          #main .main__image__text div .textfield .textfield__top h2 {
+            font-size: 20px;
+            line-height: 30px; }
+          #main .main__image__text div .textfield .textfield__top p {
+            font-size: 12px;
+            margin-top: 20px; }
+        #main .main__image__text div .textfield .textfield__center {
+          width: 100%;
+          margin-top: 35px; }
+          #main .main__image__text div .textfield .textfield__center input {
+            width: 70%; }
+          #main .main__image__text div .textfield .textfield__center button {
+            width: 27%; }
+        #main .main__image__text div .textfield .textfield__bottom {
+          width: 100%; }
+          #main .main__image__text div .textfield .textfield__bottom h6 {
+            font-size: 11px; }
+  #main .main__icon__image {
+    padding: 1rem;
+    height: 100%;
+    width: 100%;
+    margin: 0px; }
+    #main .main__icon__image div {
+      width: 100%;
+      height: 100%;
+      flex-direction: column; }
+      #main .main__icon__image div .icon__1 {
+        width: 100%;
+        height: 100%;
+        margin-right: 0px; }
+        #main .main__icon__image div .icon__1 .icon__title {
+          width: 100%; }
+          #main .main__icon__image div .icon__1 .icon__title h2 {
+            width: 100%;
+            font-size: 25px;
+            line-height: 35px; }
+        #main .main__icon__image div .icon__1 .icon__information {
+          margin-top: 1rem;
+          width: 100%; }
+          #main .main__icon__image div .icon__1 .icon__information .icon__information__left {
+            width: 100%; }
+          #main .main__icon__image div .icon__1 .icon__information .icon__information__right {
+            width: 100%; }
+      #main .main__icon__image div .image__1 img {
+        width: 100%;
+        height: 100%; }
+  #main .main__image {
+    padding: 1rem;
+    height: 100%; }
+    #main .main__image div {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%; }
+      #main .main__image div div {
+        width: 85%;
+        height: 100%; }
+        #main .main__image div div img {
+          width: 100%;
+          height: 100%; }
+        #main .main__image div div p {
+          margin: 0px; } }
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  #main .main__title {
+    padding: 1rem;
+    height: 50vh; }
+    #main .main__title .main__title__content .main__title__content__top h1 {
+      font-size: 27px; }
+    #main .main__title .main__title__content .main__title__content__center p {
+      font-size: 13px; }
+    #main .main__title .main__title__content .main__title__content__bottom div {
+      width: 50%; }
+      #main .main__title .main__title__content .main__title__content__bottom div .bt1 {
+        width: 50%; }
+      #main .main__title .main__title__content .main__title__content__bottom div .bt2 {
+        width: 45%; }
+  #main .main__notification {
+    padding: 1rem; }
+    #main .main__notification h2 {
+      font-size: 29px; }
+    #main .main__notification p {
+      font-size: 12px; }
+  #main .main__logo {
+    padding: 1rem;
+    height: 100%;
+    width: 100%; }
+    #main .main__logo div {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%; }
+      #main .main__logo div .main__logo__column {
+        width: 100%;
+        margin: 10px;
+        background-color: #eeeeee4a; }
+        #main .main__logo div .main__logo__column .icon__text .text h4 {
+          font-size: 15px;
+          line-height: 5px;
+          height: 100%; }
+        #main .main__logo div .main__logo__column .icon__text .text p {
+          font-size: 12px; }
+  #main .main__image__text {
+    padding: 1rem;
+    margin-top: 2rem;
+    width: 100%;
+    height: 100%; }
+    #main .main__image__text div {
+      width: 100%;
+      flex-direction: row; }
+      #main .main__image__text div .image img {
+        width: 100%;
+        height: 100%; }
+      #main .main__image__text div .textfield {
+        width: 100%;
+        margin: 0px;
+        height: 20rem;
+        padding: 1rem; }
+        #main .main__image__text div .textfield .textfield__top {
+          width: 100%; }
+          #main .main__image__text div .textfield .textfield__top h2 {
+            font-size: 16px;
+            line-height: 25px; }
+          #main .main__image__text div .textfield .textfield__top p {
+            font-size: 13px;
+            margin-top: 20px; }
+        #main .main__image__text div .textfield .textfield__center {
+          width: 100%;
+          margin-top: 1rem; }
+          #main .main__image__text div .textfield .textfield__center input {
+            width: 70%; }
+          #main .main__image__text div .textfield .textfield__center button {
+            width: 27%; }
+        #main .main__image__text div .textfield .textfield__bottom {
+          width: 100%; }
+          #main .main__image__text div .textfield .textfield__bottom h6 {
+            font-size: 10px; }
+  #main .main__icon__image {
+    padding: 1rem;
+    height: 100%;
+    width: 100%;
+    margin: 2rem 0rem; }
+    #main .main__icon__image div {
+      width: 100%;
+      height: 100%;
+      flex-direction: row; }
+      #main .main__icon__image div .icon__1 {
+        width: 100%;
+        height: 100%; }
+        #main .main__icon__image div .icon__1 .icon__title {
+          width: 100%;
+          height: 100%; }
+          #main .main__icon__image div .icon__1 .icon__title h2 {
+            width: 100%;
+            font-size: 19px;
+            line-height: 30px; }
+        #main .main__icon__image div .icon__1 .icon__information {
+          margin-top: 2rem;
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly; }
+          #main .main__icon__image div .icon__1 .icon__information .icon__information__left {
+            height: 100%;
+            width: 40%; }
+          #main .main__icon__image div .icon__1 .icon__information .icon__information__right {
+            height: 100%;
+            width: 40%; }
+      #main .main__icon__image div .image__1 {
+        width: 100%;
+        height: 100%; }
+        #main .main__icon__image div .image__1 img {
+          width: 100%;
+          height: 100%; }
+  #main .main__image {
+    padding: 1rem;
+    height: 100%; }
+    #main .main__image div {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%; }
+      #main .main__image div div {
+        width: 60%; }
+        #main .main__image div div img {
+          height: 100%;
+          width: 100%; }
+        #main .main__image div div p {
+          margin: 0px; } }
+
+@media only screen and (width: 360px) and (height: 640px) {
+  #main .main__title {
+    height: 70vh;
+    padding: 1rem; }
+    #main .main__title .main__title__content .main__title__content__top h1 {
+      font-size: 26px; }
+    #main .main__title .main__title__content .main__title__content__center p {
+      font-size: 13px;
+      margin: 20px 0px; }
+    #main .main__title .main__title__content .main__title__content__bottom {
+      height: 10vh; }
+      #main .main__title .main__title__content .main__title__content__bottom div {
+        width: 65%;
+        margin-top: 0px; }
+        #main .main__title .main__title__content .main__title__content__bottom div .bt1 {
+          width: 50%; }
+        #main .main__title .main__title__content .main__title__content__bottom div .bt2 {
+          width: 45%; }
+  #main .main__icon__image div .icon__1 .icon__information {
+    margin-top: 1rem; }
+    #main .main__icon__image div .icon__1 .icon__information .icon__information__left p {
+      font-size: 14px; }
+    #main .main__icon__image div .icon__1 .icon__information .icon__information__right p {
+      font-size: 14px; }
+  #main .main__icon__image div .icon__1 .icon__title {
+    height: 4rem; }
+    #main .main__icon__image div .icon__1 .icon__title h2 {
+      font-size: 17px; }
+  #main .main__image__text div .textfield .textfield__top h2 {
+    font-size: 17px; }
+  #main .main__image__text div .textfield .textfield__center {
+    margin: 2rem 0rem; } }
+
+@media only screen and (width: 1024px) {
+  #main .main__title {
+    padding: 1rem;
+    height: 40vh; }
+    #main .main__title .main__title__content .main__title__content__top h1 {
+      font-size: 27px; }
+    #main .main__title .main__title__content .main__title__content__center p {
+      font-size: 13px; }
+    #main .main__title .main__title__content .main__title__content__bottom div {
+      width: 50%; }
+      #main .main__title .main__title__content .main__title__content__bottom div .bt1 {
+        width: 50%; }
+      #main .main__title .main__title__content .main__title__content__bottom div .bt2 {
+        width: 45%; }
+  #main .main__notification {
+    padding: 1rem; }
+    #main .main__notification h2 {
+      font-size: 29px; }
+    #main .main__notification p {
+      font-size: 12px; }
+  #main .main__logo {
+    padding: 1rem;
+    height: 100%;
+    width: 100%; }
+    #main .main__logo div {
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: 32%; }
+      #main .main__logo div .main__logo__column {
+        width: 100%;
+        margin: 10px;
+        background-color: #eeeeee4a; }
+        #main .main__logo div .main__logo__column .icon__text .text h4 {
+          font-size: 15px;
+          line-height: 5px;
+          height: 100%;
+          margin-top: 2rem;
+          margin-bottom: 0px; }
+        #main .main__logo div .main__logo__column .icon__text .text p {
+          font-size: 12px;
+          padding: 2rem; }
+  #main .main__image__text {
+    padding: 1rem;
+    margin-top: 2rem;
+    width: 100%;
+    height: 100%; }
+    #main .main__image__text div {
+      width: 100%;
+      flex-direction: row; }
+      #main .main__image__text div .image img {
+        width: 100%;
+        height: 100%; }
+      #main .main__image__text div .textfield {
+        width: 100%;
+        margin: 0px;
+        height: 17rem;
+        padding: 1rem; }
+        #main .main__image__text div .textfield .textfield__top {
+          width: 100%; }
+          #main .main__image__text div .textfield .textfield__top h2 {
+            font-size: 22px;
+            line-height: 30px; }
+          #main .main__image__text div .textfield .textfield__top p {
+            font-size: 13px;
+            margin-top: 20px; }
+        #main .main__image__text div .textfield .textfield__center {
+          width: 100%;
+          margin-top: 35px; }
+          #main .main__image__text div .textfield .textfield__center input {
+            width: 70%; }
+          #main .main__image__text div .textfield .textfield__center button {
+            width: 27%; }
+        #main .main__image__text div .textfield .textfield__bottom {
+          width: 100%; }
+  #main .main__icon__image {
+    padding: 1rem;
+    height: 100%;
+    width: 100%;
+    margin-top: 2rem; }
+    #main .main__icon__image div {
+      width: 100%;
+      height: 100%;
+      flex-direction: row; }
+      #main .main__icon__image div .icon__1 {
+        width: 100%;
+        height: 100%; }
+        #main .main__icon__image div .icon__1 .icon__title {
+          width: 100%;
+          height: 100%; }
+          #main .main__icon__image div .icon__1 .icon__title h2 {
+            width: 100%;
+            font-size: 30px;
+            line-height: 35px; }
+        #main .main__icon__image div .icon__1 .icon__information {
+          margin-top: 2rem;
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly; }
+          #main .main__icon__image div .icon__1 .icon__information .icon__information__left {
+            width: 100%;
+            width: 40%; }
+          #main .main__icon__image div .icon__1 .icon__information .icon__information__right {
+            width: 100%;
+            width: 40%; }
+      #main .main__icon__image div .image__1 {
+        width: 100%;
+        height: 100%; }
+        #main .main__icon__image div .image__1 img {
+          width: 100%;
+          height: 100%; }
+  #main .main__image {
+    padding: 1rem;
+    height: 100%;
+    margin: 0px; }
+    #main .main__image div {
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: 100%; }
+      #main .main__image div div {
+        width: 60%; }
+        #main .main__image div div img {
+          height: 100%;
+          width: 100%; }
+        #main .main__image div div p {
+          margin: 0px;
+          font-size: 12px; }
+        #main .main__image div div h5 {
+          font-size: 16px; } }
+
+@media only screen and (width: 540px) and (height: 720px) {
+  #main .main__title {
+    height: 50vh;
+    padding: 1rem; }
+    #main .main__title .main__title__content .main__title__content__top h1 {
+      font-size: 26px; }
+    #main .main__title .main__title__content .main__title__content__center p {
+      font-size: 13px;
+      margin: 20px 0px; }
+    #main .main__title .main__title__content .main__title__content__bottom {
+      height: 10vh; }
+      #main .main__title .main__title__content .main__title__content__bottom div {
+        width: 65%;
+        margin-top: 0px; }
+        #main .main__title .main__title__content .main__title__content__bottom div .bt1 {
+          width: 50%; }
+        #main .main__title .main__title__content .main__title__content__bottom div .bt2 {
+          width: 45%; }
+  #main .main__notification {
+    padding: 1rem; }
+    #main .main__notification h2 {
+      font-size: 25px; }
+    #main .main__notification p {
+      font-size: 12px; }
+  #main .main__logo {
+    padding: 1rem;
+    height: 100%;
+    width: 100%; }
+    #main .main__logo div {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%; }
+      #main .main__logo div .main__logo__column {
+        width: 100%;
+        margin: 10px;
+        background-color: #eeeeee4a; }
+        #main .main__logo div .main__logo__column .icon__text .text h4 {
+          font-size: 15px;
+          line-height: 5px;
+          height: 100%; }
+        #main .main__logo div .main__logo__column .icon__text .text p {
+          font-size: 12px; }
+  #main .main__image__text {
+    padding: 1rem;
+    margin: 0px;
+    width: 100%;
+    height: 100%; }
+    #main .main__image__text div {
+      width: 100%;
+      display: block; }
+      #main .main__image__text div .image img {
+        max-width: 100%; }
+      #main .main__image__text div .textfield {
+        width: 100%;
+        margin: 0px; }
+        #main .main__image__text div .textfield .textfield__top {
+          width: 100%; }
+          #main .main__image__text div .textfield .textfield__top h2 {
+            font-size: 20px;
+            line-height: 30px; }
+          #main .main__image__text div .textfield .textfield__top p {
+            font-size: 12px;
+            margin-top: 20px; }
+        #main .main__image__text div .textfield .textfield__center {
+          width: 100%;
+          margin-top: 35px; }
+          #main .main__image__text div .textfield .textfield__center input {
+            width: 70%; }
+          #main .main__image__text div .textfield .textfield__center button {
+            width: 27%; }
+        #main .main__image__text div .textfield .textfield__bottom {
+          width: 100%; }
+          #main .main__image__text div .textfield .textfield__bottom h6 {
+            font-size: 11px; }
+  #main .main__icon__image {
+    padding: 1rem;
+    height: 100%;
+    width: 100%;
+    margin: 0px; }
+    #main .main__icon__image div {
+      width: 100%;
+      height: 100%;
+      flex-direction: column; }
+      #main .main__icon__image div .icon__1 {
+        width: 100%;
+        height: 100%;
+        margin-right: 0px; }
+        #main .main__icon__image div .icon__1 .icon__title {
+          width: 100%; }
+          #main .main__icon__image div .icon__1 .icon__title h2 {
+            width: 100%;
+            font-size: 25px;
+            line-height: 35px; }
+        #main .main__icon__image div .icon__1 .icon__information {
+          margin-top: 1rem;
+          width: 100%; }
+          #main .main__icon__image div .icon__1 .icon__information .icon__information__left {
+            width: 100%; }
+          #main .main__icon__image div .icon__1 .icon__information .icon__information__right {
+            width: 100%; }
+      #main .main__icon__image div .image__1 img {
+        width: 100%;
+        height: 100%; }
+  #main .main__image {
+    padding: 1rem;
+    height: 100%; }
+    #main .main__image div {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%; }
+      #main .main__image div div {
+        width: 85%;
+        height: 100%; }
+        #main .main__image div div img {
+          width: 100%;
+          height: 100%; }
+        #main .main__image div div p {
+          margin: 0px; } }
+
+#header {
+  height: 88px;
+  position: relative;
+  background-color: #f3f6fa;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  #header .header__content {
+    display: flex;
+    width: 90%;
+    justify-content: space-between; }
+    #header .header__content .header__logo a img {
+      width: 70px;
+      height: 43px; }
+    #header .header__content #btn__menu {
+      display: none; }
+    #header .header__content ul {
+      display: flex;
+      align-items: center;
+      width: 60%;
+      justify-content: space-between; }
+      #header .header__content ul li {
+        list-style-type: none; }
+        #header .header__content ul li a {
+          text-decoration: none;
+          color: #373f41; }
+      #header .header__content ul .log_in {
+        margin-left: 20rem; }
+        #header .header__content ul .log_in a {
+          color: #3c64b1; }
+      #header .header__content ul .start_now {
+        height: 40px;
+        width: 106px;
+        background-color: #3c64b1;
+        border: 0px;
+        margin-left: -2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.3px; }
+        #header .header__content ul .start_now a {
+          color: white; }
+        #header .header__content ul .start_now:hover {
+          background-color: #fff;
+          border: 1px solid #3c64b1; }
+          #header .header__content ul .start_now:hover a {
+            color: #3c64b1; }
+      #header .header__content ul .Features:hover {
+        border-bottom: 1px solid; }
+      #header .header__content ul .Pricing:hover {
+        border-bottom: 1px solid; }
+      #header .header__content ul .Contact:hover {
+        border-bottom: 1px solid; }
+
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+  #header .header__content {
+    display: flex;
+    position: relative;
+    width: 93%;
+    justify-content: space-between;
+    align-items: center; }
+    #header .header__content #btn__menu {
+      display: inline-block;
+      position: absolute;
+      left: 91%; }
+      #header .header__content #btn__menu > div {
+        width: 35px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+    #header .header__content ul {
+      top: 3rem;
+      display: none;
+      position: absolute;
+      width: 100%; }
+      #header .header__content ul .log_in {
+        margin-left: 0px; }
+      #header .header__content ul .start_now {
+        margin-left: 0px;
+        width: 100%;
+        height: 100%;
+        background-color: #f3f6fa; }
+        #header .header__content ul .start_now a {
+          color: #3c64b1; }
+      #header .header__content ul li {
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f3f6fa; }
+        #header .header__content ul li:hover {
+          background-color: #3c64b1; }
+          #header .header__content ul li:hover a {
+            color: #fff; }
+      #header .header__content ul .Features:hover {
+        border-bottom: 0px; }
+      #header .header__content ul .Pricing:hover {
+        border-bottom: 0px; }
+      #header .header__content ul .Contact:hover {
+        border-bottom: 0px; }
+      #header .header__content ul .start_now:hover {
+        background-color: #3c64b1; }
+        #header .header__content ul .start_now:hover a {
+          color: #fff; }
+    #header .header__content .header__buttons {
+      width: 30%; }
+      #header .header__content .header__buttons button {
+        width: 60%; } }
+
+.is-active {
+  display: block !important; }
+
+@media only screen and (min-width: 700px) and (max-width: 1028px) {
+  #header .header__content {
+    display: flex;
+    width: 95%;
+    justify-content: space-between; }
+    #header .header__content ul {
+      width: 65%; }
+      #header .header__content ul .log_in {
+        margin-left: 2rem; }
+      #header .header__content ul .start_now {
+        margin-right: 2px; } }
+
+@media only screen and (max-width: 720px) and (min-width: 540px) {
+  #header .header__content {
+    display: flex;
+    position: relative;
+    width: 93%;
+    justify-content: space-between;
+    align-items: center; }
+    #header .header__content #btn__menu {
+      display: inline-block;
+      position: absolute;
+      left: 30rem; }
+      #header .header__content #btn__menu > div {
+        width: 35px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+    #header .header__content ul {
+      top: 3rem;
+      display: none;
+      position: absolute;
+      width: 100%; }
+      #header .header__content ul .log_in {
+        margin-left: 0px; }
+      #header .header__content ul .start_now {
+        margin-left: 0px;
+        width: 100%;
+        height: 100%;
+        background-color: #f3f6fa; }
+        #header .header__content ul .start_now a {
+          color: #3c64b1; }
+      #header .header__content ul li {
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f3f6fa; }
+        #header .header__content ul li:hover {
+          background-color: #3c64b1; }
+          #header .header__content ul li:hover a {
+            color: #fff; }
+      #header .header__content ul .Features:hover {
+        border-bottom: 0px; }
+      #header .header__content ul .Pricing:hover {
+        border-bottom: 0px; }
+      #header .header__content ul .Contact:hover {
+        border-bottom: 0px; }
+      #header .header__content ul .start_now:hover {
+        background-color: #3c64b1; }
+        #header .header__content ul .start_now:hover a {
+          color: #fff; }
+    #header .header__content .header__buttons {
+      width: 30%; }
+      #header .header__content .header__buttons button {
+        width: 60%; } }
+
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+  #header .header__content {
+    display: flex;
+    position: relative;
+    width: 93%;
+    justify-content: space-between;
+    align-items: center; }
+    #header .header__content #btn__menu {
+      display: inline-block;
+      position: absolute;
+      left: 91%; }
+      #header .header__content #btn__menu > div {
+        width: 35px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+    #header .header__content ul {
+      top: 3rem;
+      display: none;
+      position: absolute;
+      width: 100%; }
+      #header .header__content ul .log_in {
+        margin-left: 0px; }
+      #header .header__content ul .start_now {
+        margin-left: 0px;
+        width: 100%;
+        height: 100%;
+        background-color: #f3f6fa; }
+        #header .header__content ul .start_now a {
+          color: #3c64b1; }
+      #header .header__content ul li {
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f3f6fa; }
+        #header .header__content ul li:hover {
+          background-color: #3c64b1; }
+          #header .header__content ul li:hover a {
+            color: #fff; }
+      #header .header__content ul .Features:hover {
+        border-bottom: 0px; }
+      #header .header__content ul .Pricing:hover {
+        border-bottom: 0px; }
+      #header .header__content ul .Contact:hover {
+        border-bottom: 0px; }
+      #header .header__content ul .start_now:hover {
+        background-color: #3c64b1; }
+        #header .header__content ul .start_now:hover a {
+          color: #fff; }
+    #header .header__content .header__buttons {
+      width: 30%; }
+      #header .header__content .header__buttons button {
+        width: 60%; } }
+
+@media only screen and (width: 1024px) {
+  #header .header__content {
+    display: flex;
+    width: 95%;
+    justify-content: space-between; }
+    #header .header__content ul {
+      width: 60%; }
+      #header .header__content ul .log_in {
+        margin-left: 8rem; }
+      #header .header__content ul .start_now {
+        margin-right: 2px; } }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Mulish"; }
+
